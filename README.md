@@ -38,7 +38,7 @@ OpenVINO 프레임워크 상, YOLOv10 모델을 FP32, FP16, INT8로 CPU에서 GP
 # 결론
 1. OpenVINO는 자체적으로 FP32 모델도 FP16으로 내부적으로 추론함.
 2. CPU는 FP16과 FP32 추론 시간에 영향이 없으므로 둘 중에서는 조금 더 정확한 FP32 사용
-3. 내장 GPU 사용 시, 추론 시간이 크게 증가하며, 특히 INT8 타입의 추론 속도 많이 향상됨
+3. 내장 GPU 사용 시, 추론 속도가 크게 증가하며, 특히 INT8 타입의 추론 속도 많이 향상됨
 
 # 출처
 - iGPU 스펙: https://www.techpowerup.com/gpu-specs/iris-xe-graphics-g7-80eu-mobile.c3678
